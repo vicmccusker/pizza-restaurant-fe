@@ -165,9 +165,9 @@ footer {
 footer a {
 
   text-decoration: none;
+  color: orangered;
 
 }
-
 
 form {
 
@@ -192,14 +192,6 @@ form {
 .open {
   height: 200px;
   transition : all 2s ease-in-out;
-}
-
-footer a {
-
-    text-decoration: none;
-    color: orangered;
-
-  
 }
 
 
@@ -298,6 +290,32 @@ footer a {
   .sign-up {
 
     width: 100%;
+    padding: 20px;
+  
+  }
+  
+
+  footer {
+    font-family: 'ClashDisplay-Regular';
+    background-color: beige;
+    color: orangered;
+    padding: 20px 10px 10px 20px;
+    font-size: 1rem;
+  
+  }
+  
+  .footer-links {
+    font-family: 'ClashDisplay-Regular';
+    display: flex;
+    justify-content: space-between;
+    color: black;
+  
+  }
+  
+  footer a {
+  
+    text-decoration: none;
+    color: orangered;
   
   }
 

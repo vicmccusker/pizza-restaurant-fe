@@ -1,8 +1,6 @@
 /* * {border:1px solid red} */
 
 @import url('clash-display.css');
-
-
  
 body {
     
@@ -20,14 +18,18 @@ body {
 
 nav {
   font-family: 'ClashDisplay-Regular';
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   border-bottom: 1px solid var(--text);
   background-color: beige;
   color: orangered;
   padding: 20px 10px 10px 20px;
   font-size: 2rem;
+
+}
+
+.nav-links {
+  font-family: 'ClashDisplay-Regular';
+  display: flex;
+  justify-content: space-between;
 
 }
 
@@ -40,15 +42,10 @@ nav a {
 
 nav a:hover {
   
-  font-family: 'ClashDisplay-SemiBold';
+  color: black;
 
 }
 
-nav a:focus {
-  
-  background-image: radial-gradient(#00fb9f, transparent);
-
-}
 
 .burger, .close{
   display: none;
@@ -195,6 +192,12 @@ img {
     margin: 0px;
     padding-right: 0px;
     padding-left: 0px;
+  }
+
+  nav a:hover {
+  
+    font-family: 'ClashDisplay-SemiBold';
+  
   }
   
   .nav-links {

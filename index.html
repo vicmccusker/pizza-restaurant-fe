@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+  <!-- stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- fonts -->
+  <link rel="stylesheet"
+  href="link rel="preconnect href="https://fonts.googleapis.com>">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous"
+  referrerpolicy="no-referrer"/>
+
+  <!-- Javascript -->
+  <script defer src="index.js"></script>
+    
+  <title>Pizza Project | Victoria McCusker</title>
+  
+</head>
+
+<body>
+
+  <nav>
+    <div class="nav-links">
+    <a class="close">x</a>
+    <a target=”_blank” href="https://www.linkedin.com/in/victoria-mccusker/">Menu</a>
+    <a target=”_blank” href="https://www.linkedin.com/in/victoria-mccusker/">Eat In</a>
+    <img class="logo nav-links" src="/Images/Pizza_Logo.png">
+    <a target=”_blank” href="">Eat at Home</a>
+    <a target=”_blank” href="">Story</a>
+  </div>
+  <button class="burger"><i class="fa-solid fa-bars"></i></button>
+  </nav>
+
+
+
+
+  <header class="banner">
+    <img id="main-img-mobile" src="Images/Pizza_Banner.jpg"  alt="image">
+    <h2 class="centered"> Perfect for sharing</h2>
+  </header>
+
+    <section class="row">
+      <div class="eat-in col-lg-6 col-md-6 col-sm-12">
+            <h1>Eat in</h1>
+            <p>Browse our locations and opening times</p>
+      </div>
+
+      <div class="eat-at-home col-lg-6 col-md-6 col-sm-12">
+            <h1>Take away</h1>
+            <p>You can order through our website, Deliveroo, Uber Eats and Just Eat</p>  
+      </div>
+    </section>
+
+     <section class="menu div col-lg-12 col-md-12 col-sm-12">
+          <h1>Menu</h1>
+          <p>Download</p>
+    </section>
+
+    <section class="row">
+      <div class="our-story col-lg-6 col-md-6 col-sm-12">
+        <h1>Our Story</h1>
+        <p>Placeholder text</p>
+      </div>
+      
+      <div class="sign-up col-lg-6 col-md-6 col-sm-12">
+        <h1>Sign Up</h1>
+        <p>to our newsletter and get access to 10% off and special offers</p>
+
+        <form class="form-inline"  id="form" name="form1" action="#">
+          <label for="email" ></label><input type="text" name="email" id="email" placeholder="example@email.com">
+          <div class="error"></div>
+          <button type="submit" id="submit" onclick="validateEmail(document.form1.email)">Submit</button>
+        </form>
+      </div>    
+    </section>
+
+  <footer class="footer">
+        <a class="nav-links" href="">Home</a>
+        <a class="nav-links" href="">About</a>
+        <a class="nav-links" href="">Blog</a>
+        <a class="nav-links" href="">Content</a>
+   </footer>
+
+</body>

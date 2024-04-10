@@ -43,35 +43,40 @@
           <button class="burger"><i class="fa-solid fa-bars"></i></button>
   </nav>
 
+
   <header class="banner">
       <img id="main-img-mobile" src="Images/Pizza_Banner.jpg"  alt="image">
       <h2 class="centered"> Perfect for sharing</h2>
   </header>
 
-  <section class="row">
-    <div class="eat-in">
-        <h1>Eat in</h1>
-        <p>Browse our locations and opening times</p>
-    </div>
+  <div class="container-fluid">
 
-    <div class="eat-at-home">
-        <h1>Take away</h1>
-        <p>You can order through our website, Deliveroo, Uber Eats and Just Eat</p>  
-    </div>
+  <section class="row">
+      <div class="eat-in col-lg-6 col-md-6 col-sm-6">
+          <h1>Eat in</h1>
+          <p>Browse our locations and opening times</p>
+      </div>
+
+      <div class="eat-at-home col-lg-6 col-md-6 col-sm-6">
+          <h1>Take away</h1>
+          <p>You can order through our website, Deliveroo, Uber Eats and Just Eat</p>  
+      </div>
+
   </section>
 
-  <section class="menu">
+  <section class="row menu col-lg-12 col-md-12 col-sm-12">
       <h1>Menu</h1>
       <p>Download</p>
   </section>
 
   <section class="row">
-    <div class="our-story">
+
+    <div class="our-story col-lg-6 col-md-6 col-sm-6">
         <h1>Our Story</h1>
         <p>Bringing you delicious Pizzas since 2018, discover our story and get to know our team.</p>
     </div>
       
-    <div class="sign-up">
+    <div class="sign-up col-lg-6 col-md-6 col-sm-6">
         <h1>Sign Up</h1>
         <p>to our newsletter and get access to 10% off and special offers</p>
 
@@ -79,16 +84,20 @@
           <label for="email" ></label><input type="text" name="email" id="email" placeholder="example@email.com">
           <button type="submit" id="submit">Submit</button>
         </form>
-    </div>    
+    </div>
+    
   </section>
 
+</div>
+
   <footer>
-      <div class="footer-links">
+      <div class="footer-links container-fluid">
           <a target=”_blank” href="">Menu</a>
           <a target=”_blank” href="">Eat In</a>
           <a target=”_blank” href="">Eat at Home</a>
           <a target=”_blank” href="">Story</a>
       </div>
    </footer>
+
 
 </body>

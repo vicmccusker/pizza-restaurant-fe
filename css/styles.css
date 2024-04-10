@@ -8,7 +8,8 @@ body {
   margin: 0;
   padding: 0;
   
-    }
+}
+
 
 :root {
   --main-color: rgba(255,77,0,0.5);
@@ -18,7 +19,6 @@ body {
 
 nav {
   font-family: 'ClashDisplay-Regular';
-  border-bottom: 1px solid var(--text);
   background-color: beige;
   color: orangered;
   padding: 20px 10px 10px 20px;
@@ -36,6 +36,7 @@ nav {
 nav a {
 
   text-decoration: none;
+  color: orangered;
 
 }
 
@@ -72,6 +73,7 @@ i {
   position: relative;
   text-align: center;
   color: white;
+  width: 100%;
 }
 
 .banner h2 {
@@ -85,9 +87,10 @@ i {
 
 
 img {
-  width: 100%;
   height: 400px;
   object-fit: cover;
+  margin: 0px;
+  width: 100%;
 }
   
 .eat-in {
@@ -97,8 +100,6 @@ img {
   padding: 100px;
   align-items: center;
   text-align: center;
-  width: 50%;
-
 }
 
 .eat-at-home {
@@ -108,7 +109,6 @@ img {
   padding: 100px;
   align-items: center;
   text-align: center;
-  width: 50%;
 
 }
 
@@ -119,6 +119,8 @@ img {
   padding: 50px;
   align-items: center;
   text-align: center;
+  width: 100vw;
+
 
 }
 
@@ -129,8 +131,6 @@ img {
   padding: 100px;
   align-items: center;
   text-align: center;
-  width: 50%;
-
 }
 
 
@@ -141,13 +141,12 @@ img {
   padding: 100px;
   align-items: center;
   text-align: center;
-  width: 50%;
+
 
 }
 
 footer {
   font-family: 'ClashDisplay-Regular';
-  border-bottom: 1px solid var(--text);
   background-color: beige;
   color: orangered;
   padding: 20px 10px 10px 20px;
@@ -195,13 +194,20 @@ form {
   transition : all 2s ease-in-out;
 }
 
+footer a {
+
+    text-decoration: none;
+    color: orangered;
+
+  
+}
+
 
 @media only screen and (max-width: 768px) {
 
   .container {
     margin: 0px;
-    padding-right: 0px;
-    padding-left: 0px;
+    padding: 0px;
   }
 
   nav a:hover {
@@ -235,7 +241,7 @@ form {
       right: 0;
   }
 
-.burger {
+  .burger {
 
     display: flex;
     justify-content: center;
@@ -251,7 +257,7 @@ form {
 
     display: none;
 
-    }
+  }
 
   .nav-links .close {
 
@@ -260,11 +266,13 @@ form {
     margin-bottom: 30px;
     width: 20%;
 
-    }
+  }
 
   .close:hover {
+
     font-weight: 900;
     color: white;
+
   }
 
   .eat-in {

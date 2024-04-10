@@ -36,7 +36,6 @@ nav {
 nav a {
 
   text-decoration: none;
-  color: var(--text);
 
 }
 
@@ -45,7 +44,6 @@ nav a:hover {
   color: black;
 
 }
-
 
 .burger, .close{
   display: none;
@@ -74,7 +72,6 @@ i {
   position: relative;
   text-align: center;
   color: white;
-  border: 1px solid black;
 }
 
 .banner h2 {
@@ -95,25 +92,22 @@ img {
   
 .eat-in {
 
-  background-color: rgba(255,77,0,0.5);
+  background-color: #ff6b02;
   color: beige;
   padding: 100px;
   align-items: center;
   text-align: center;
-  border: 1px solid black;
   width: 50%;
-  height: 0px;
 
 }
 
 .eat-at-home {
 
-  background-color: #E2CCBC;
-  color: beige;
+  background-color: beige;
+  color: orangered;
   padding: 100px;
   align-items: center;
   text-align: center;
-  border: 1px solid black;
   width: 50%;
 
 }
@@ -125,63 +119,79 @@ img {
   padding: 50px;
   align-items: center;
   text-align: center;
-  border: 1px solid black;
 
 }
 
 .our-story {
 
-  background-color: orangered;
-  color: beige;
+  background-color: beige;
+  color: orangered;
   padding: 100px;
   align-items: center;
   text-align: center;
-  justify-content: center;
-  border: 1px solid black;
-  margin: 0;
+  width: 50%;
 
 }
 
-.stay-in-touch {
-
-  background-color: orangered;
-  color: beige;
-  padding: 50px;
-  align-items: center;
-  text-align: left;
-  border-color: black;
-  border: 1px solid black;
-  margin: 0;
-
-}
 
 .sign-up {
 
-  background-color: orangered;
+  background-color: #ff6b02;
   color: beige;
   padding: 100px;
   align-items: center;
   text-align: center;
-  justify-content: center;
-  border: 1px solid black;
-
+  width: 50%;
 
 }
 
-.footer {
-
-  display: flex;
-  border: 1px solid black;
+footer {
+  font-family: 'ClashDisplay-Regular';
+  border-bottom: 1px solid var(--text);
   background-color: beige;
+  color: orangered;
+  padding: 20px 10px 10px 20px;
+  font-size: 2rem;
+
+}
+
+.footer-links {
+  font-family: 'ClashDisplay-Regular';
+  display: flex;
+  justify-content: space-between;
+  color: black;
+
+}
+
+footer a {
+
+  text-decoration: none;
+
+}
+
+
+form {
+
   align-items: center;
   justify-content: center;
-  gap: 200px;
 
+}
+
+#email {
+  background-color: beige;
+  border: 0px transparent;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+#submit {
+  background-color: beige;
+  border: 0px transparent;
 }
 
 
 .open {
-  height: 200pxå;
+  height: 200px;
   transition : all 2s ease-in-out;
 }
 
@@ -255,6 +265,32 @@ img {
   .close:hover {
     font-weight: 900;
     color: white;
+  }
+
+  .eat-in {
+
+    margin: 0;
+    width: 100%;
+  
+  }
+  
+  .eat-at-home {
+  
+    width: 100%;
+  
+  }
+  
+  .our-story {
+
+    width: 100%;
+  
+  }
+  
+  
+  .sign-up {
+
+    width: 100%;
+  
   }
 
 }

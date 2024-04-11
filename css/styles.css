@@ -202,6 +202,13 @@ form {
     padding: 0px;
   }
 
+  nav a {
+
+    text-decoration: none;
+    color: rgb(246, 246, 246);
+  
+  }
+
   nav a:hover {
   
     font-family: 'ClashDisplay-SemiBold';
